@@ -152,6 +152,7 @@ def solve():
         # Let's check center.
         if is_point_in_poly(cx, cy):
              print(f"Max area: {area}")
+             print(f"Rect: {rx1},{ry1},{rx2},{ry2}")
              return
 
     print("No valid rectangle found")
